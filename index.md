@@ -4,7 +4,7 @@
 
 ### FPGA-controlled cyber-physical Pong game
 
-This project was done in collaboration with Intel and consisted of making an application-specific cyber-physical system using an FPGA, a hardware programming device that serves as a digital circuit design and prototyping tool
+This project was done in collaboration with Intel and consisted of making an application-specific cyber-physical system using an FPGA.
 
 In this team project, a Pong game was made in Processing and controlled by the FPGA using the built-in accelerometer and an infrared sensor. I contributed mainly by writing the code for the FPGA to function as the contol unit, specifically DE10-Lite Altera MAX 10 FPGA model, using VHDL as the hardware descriptor language and Intel Quartus Prime as the software design.
 
@@ -32,7 +32,9 @@ In this project we worked with a development board with an STM32 microcontroller
 
 ### Closed-loop control system for a DC motor using ROS
 
+In this project I designed and implemented a closed loop control system for speed and position of a DC motor in conjunction with ROS. 
 
+The controller was implemented in a Simulink model, which received the motor feedback through a subscriber node subscribed to the velocity and position nodes. In turn, it sent the PWM control signal through the pubisher node to the motor. The DC motor was connected to a development board with an ATMega256 microcontroller to calculate the position and velocity of the motor. It received the control PWM signal through a subscriber node and sent the position and velocity values through a publisher node.
 
 
 
