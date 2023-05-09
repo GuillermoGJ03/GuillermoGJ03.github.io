@@ -1,11 +1,12 @@
-## Portfolio
+## projects made throughout my career
 
 ---
 
-### Category Name 1 
+### FPGA-controlled cyber-physical Pong game
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+This project was done in collaboration with Intel and consisted of making an application-specific cyber-physical system using an FPGA (a hardware programming device that serves as a digital circuit design and prototyping tool).
+
+In this team project, a Pong game was made in Processing and controlled by the FPGA using the built-in accelerometer and an infrared sensor. I contributed mainly by writing the code for the FPGA, using VHDL, and in the documentation of the project. 
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
