@@ -11,7 +11,8 @@ In this team project, a Pong game was made in Processing and controlled by the F
 ---
 
 ### Microcontroller-based gas detection safety system
-Gas detectors help to detect dangerous concentrations of harmful substances in the environment and are of particular importance in industry. For this team project, made in collaboration with Intel, a digital system for gas detection and measurement of environmental variables for alarm activation and a ventilation system was designed and prototyped, in addition to a dashboard showing the levels of the measured variables.
+
+For this team project, made in collaboration with Intel, a digital system for gas detection and measurement of environmental variables for alarm activation and a ventilation system was designed and prototyped, in addition to a dashboard showing the levels of the measured variables.
 
 I contributed in this project collaborating in the writing of the code for the ATMega16 microcontroller, in C, to use and coordinate several of its components and functions such as: Timers, GPIOs, Serial communication (UART), PWM and interrupts. In addition, I was in charge of the selection of the system components (bill of material).
 
@@ -22,13 +23,17 @@ I contributed in this project collaborating in the writing of the code for the A
 ---
 
 ### Smart framework for air pressure control in agricultural equipment
+
 This project consisted of the design and development of a system to measure the pressure of a tire and adjust it to the desired value by the user through a physical interface and a remote graphical interface (dashboard). The objective of this was to be able adapt the tires of John Deere vehicles to the conditions of the terrain and thus maximize their lifespan.
 
 In this project we worked with a development board with an STM32 microcontroller, in which we implemented a real-time closed-loop PID control system (RTOS), using FreeRTOS, and an ESP32 to send data to a remote server using the MQTT protocol. The CAN protocol was implemented between the STM32 and the ESP32 to send and receive tire pressure data. As an extra, a Fourier analysis was implemented to compensate the noise caused by the air pump in the pressure measurement.
 
 ---
 
-### Category Name 2
+### Closed-loop control system for a DC motor using ROS
+
+
+
 
 
 
