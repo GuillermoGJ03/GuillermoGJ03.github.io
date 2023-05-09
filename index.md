@@ -4,6 +4,8 @@
 
 ### FPGA-controlled cyber-physical Pong game
 
+
+
 This project was done in collaboration with Intel and consisted of making an application-specific cyber-physical system using an FPGA.
 
 In this team project, a Pong game was made in Processing and controlled by the FPGA using the built-in accelerometer and an infrared sensor. I contributed mainly by writing the code for the FPGA to function as the contol unit, specifically DE10-Lite Altera MAX 10 FPGA model, using VHDL as the hardware descriptor language and Intel Quartus Prime as the software design.
@@ -41,8 +43,4 @@ In this project I contributed writing the C code to make the motor speed and pos
 ---
 
 
-
-
----
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
