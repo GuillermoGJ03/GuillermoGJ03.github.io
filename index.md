@@ -14,9 +14,9 @@ Gas detectors help to detect dangerous concentrations of harmful substances in t
 
 I contributed in this project collaborating in the writing of the code for the ATMega32 microcontroller, in C, to use and coordinate several of its components and functions such as: Timers, GPIOs, Serial communication (UART), PWM and interrupts. In addition, I was in charge of the selection of the system components (bill of material).
 
-<img src="images/diagrama_gases.png?raw=true"/>
+<img src="images/diagrama_gases_1.png?raw=true"/>
 
-<img src="images/algoritmo_gases.png?raw=true"/>
+<img src="images/algoritmo_gases_1.png?raw=true"/>
 
 
 ---
