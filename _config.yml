@@ -1,11 +1,11 @@
 title: Guillermo González Jiménez # your name (or website title) here
 logo: "/images/profile_img_1.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  si jala o q pedo 
+  <br>
+  Robotics and digital systems engineering student at Tecnológico de Monterrey with international experiences in Germany and Denmark.
+  Collaborated in projects with Intel, John Deere, Manchester Robotics and Shell Mexico.
   <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://github.com/GuillermoGJ03">View My GitHub Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
