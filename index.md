@@ -20,14 +20,11 @@ I contributed in this project collaborating in the writing of the code in C for 
 
 <table>
 <tbody>
-<tr>
+
 <td><img src="images/diagrama_gases_1.png?raw=true" width="200"/> <em>Controlador de velocidad en MATLAB </em> </td><td><img src="images/algoritmo_gases_1.png?raw=true" width="200"/> <em>Controlador de velocidad en MATLAB </em> </td>
-</tr>
+
 </tbody>
 </table>
-
-<img src="images/diagrama_gases_1.png?raw=true" width="200"/> <img src="images/algoritmo_gases_1.png?raw=true" width="200"/>
-
 
 ---
 
