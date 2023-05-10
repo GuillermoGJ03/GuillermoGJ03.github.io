@@ -21,22 +21,12 @@ I contributed in this project collaborating in the writing of the code in C for 
 <table>
 <tbody>
 <tr>
-<td>1</td><td>Jeff Smith</td>
-<td>35</td>
-<td>Assistant Manager</td>
-<td>120,000</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Maria Garcia</td>
-<td>42</td>
-<td>Department Head</td>
-<td>85,000</td>
+<td><img src="images/diagrama_gases_1.png?raw=true" width="200"/> <em>Controlador de velocidad en MATLAB </em> </td><td><img src="images/algoritmo_gases_1.png?raw=true" width="200"/> <em>Controlador de velocidad en MATLAB </em> </td>
 </tr>
 </tbody>
 </table>
 
-<p> <img src="images/diagrama_gases_1.png?raw=true" width="200"/> <em> Block diagram </em> </p> <p> <img src="images/algoritmo_gases_1.png?raw=true" width="200"/> <em> Flowchart </em> </p>
+<img src="images/diagrama_gases_1.png?raw=true" width="200"/> <img src="images/algoritmo_gases_1.png?raw=true" width="200"/>
 
 
 ---
