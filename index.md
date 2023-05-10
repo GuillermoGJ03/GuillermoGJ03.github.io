@@ -22,10 +22,10 @@ I contributed in this project collaborating in the writing of the code in C for 
 <td><img src="images/diagrama_gases_1.png?raw=true" width="600"/> <em>gas detector system block diagram</em> </td> <td><img src="images/algoritmo_gases_1.png?raw=true" width="600"/> <em>Flowchart </em> </td>
 </table>
  
-<p>
+<figure>
   <img src="images/esquematico_gas.png?raw=true"/>
-  <em> Electric diagram </em>
-</p>
+  <figcaption> Electric diagram </figcaption>
+</figure>
 
 ---
 
