@@ -21,7 +21,7 @@ I contributed in this project collaborating in the writing of the code in C for 
 <table>
 
 
-<td><img src="images/diagrama_gases_1.png?raw=true" width="400"/> <em>Controlador de velocidad en MATLAB </em> </td><td><img src="images/algoritmo_gases_1.png?raw=true" width="400"/> <em>Controlador de velocidad en MATLAB </em> </td>
+<td><img src="images/diagrama_gases_1.png?raw=true" width="600"/> <em>Controlador de velocidad en MATLAB </em> </td><td><img src="images/algoritmo_gases_1.png?raw=true" width="600"/> <em>Controlador de velocidad en MATLAB </em> </td>
 
 
 </table>
