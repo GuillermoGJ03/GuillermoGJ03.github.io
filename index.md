@@ -19,12 +19,13 @@ For this team project, made in collaboration with Intel, a digital system for ga
 I contributed in this project collaborating in the writing of the code in C for the ATMega16 microcontroller to use and coordinate several of its components and functions such as: Timers, GPIOs, Serial communication (UART), PWM and interrupts. In addition, I was in charge of the selection of the system components (bill of material).
 
 <table>
-
-
-<td><img src="images/diagrama_gases_1.png?raw=true" width="600"/> <em>Controlador de velocidad en MATLAB </em> </td><td><img src="images/algoritmo_gases_1.png?raw=true" width="600"/> <em>Controlador de velocidad en MATLAB </em> </td>
-
-
+<td><img src="images/diagrama_gases_1.png?raw=true" width="600"/> <em>gas detector system block diagram</em> </td> <td><img src="images/algoritmo_gases_1.png?raw=true" width="600"/> <em>Flowchart </em> </td>
 </table>
+ 
+<p>
+  <img src="images/esquematic_gas.png?raw=true"/>
+  <em> Electric diagram </em>
+</p>
 
 ---
 
@@ -47,7 +48,7 @@ In this project I contributed writing the C code to make the motor speed and pos
 <p>
   <img src="images/controlador_velocidad.png" />
   <em>Controlador de velocidad en MATLAB </em>
-<p>
+</p>
 
 
 
