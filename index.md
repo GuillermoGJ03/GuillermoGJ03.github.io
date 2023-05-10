@@ -23,7 +23,7 @@ I contributed in this project collaborating in the writing of the code in C for 
 </table>
  
 <p>
-  <img src="images/esquematic_gas.png?raw=true"/>
+  <img src="images/esquematico_gas.png?raw=true"/>
   <em> Electric diagram </em>
 </p>
 
