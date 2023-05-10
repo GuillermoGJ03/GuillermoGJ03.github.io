@@ -18,7 +18,7 @@ For this team project, made in collaboration with Intel, a digital system for ga
 
 I contributed in this project collaborating in the writing of the code in C for the ATMega16 microcontroller to use and coordinate several of its components and functions such as: Timers, GPIOs, Serial communication (UART), PWM and interrupts. In addition, I was in charge of the selection of the system components (bill of material).
 
-![](images/diagrama_gases_1.png)
+![](images/diagrama_gases_1.png "Title")
 
 <img src="images/diagrama_gases_1.png?raw=true"/>
 
