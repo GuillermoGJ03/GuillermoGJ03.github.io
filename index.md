@@ -24,7 +24,7 @@ I contributed in this project collaborating in the writing of the code in C for 
  
 <figure>
   <img src="images/esquematico_gas.png?raw=true"/>
- <center> <figcaption> Electric diagram </figcaption> </center>
+ <figcaption> Electric diagram </figcaption>
 </figure>
 
 ---
