@@ -36,9 +36,16 @@ In this project we worked with a development board with an STM32 microcontroller
 
 This project consisted of designing and implementing a closed-loop control system for speed and position of a DC motor in conjunction with ROS.
 
-The controller was implemented in a Simulink model, which received the motor velocity and position feedback through subscription nodes. In addition, it sent the PWM control signal through the pubisher node to the motor. The DC motor was connected to a development board with an ATMega256 microcontroller to calculate the position and velocity of the motor. It received the control PWM signal through a subscriber node and sent the position and velocity values through a publisher node.
+The controller was implemented in a Simulink model, which received the reference through a slider and the motor velocity and position feedback through subscription nodes. In addition, it sent the PWM control signal through the pubisher node to the motor. The DC motor was connected to a development board with an ATMega256 microcontroller to calculate the position and velocity of the motor. It received the control PWM signal through a subscriber node and sent the position and velocity values through a publisher node.
 
 In this project I contributed writing the C code to make the motor speed and position measurements, as well as adjusting the controller gains using methods such as Ziegler-Nichols and Root Locus. 
+
+<p>
+  <img src=>
+  <em> </em>
+<p>
+
+
 
 ---
 
