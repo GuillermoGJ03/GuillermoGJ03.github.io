@@ -41,8 +41,8 @@ The controller was implemented in a Simulink model, which received the reference
 In this project I contributed writing the C code to make the motor speed and position measurements, as well as adjusting the controller gains using methods such as Ziegler-Nichols and Root Locus. 
 
 <p>
-  <img src=>
-  <em> </em>
+  <img src="images/controlador_velocidad.png>
+  <em>Controlador de velocidad en MATLAB </em>
 <p>
 
 
