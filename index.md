@@ -99,11 +99,26 @@ The controller was implemented in a Simulink model, which received the reference
 
 In this project I contributed writing the C code to make the motor speed and position measurements and making the electric circuit between the DC motro and the development board. In addition, I was in charge of tunning both controller gains using methods such as Ziegler-Nichols and Root Locus.
 
-<p>
+<figure>
   <img src="images/controlador_velocidad.png" />
-  <em>Controlador de velocidad en MATLAB </em>
-</p>
+  <figcaption>MATLAB velocity controller</figcaption>
+</figure>
 
+<figure>
+  <img src="images/resultado_velocidad.png" />
+  <figcaption>Velocity result with PI controller</figcaption>
+</figure>
+
+
+<figure>
+  <img src="images/controlador_posicion.png" />
+  <figcaption>MATLAB position controller</figcaption>
+</figure>
+
+<figure>
+  <img src="images/resultado_posicion.png" />
+  <figcaption>Position result with PID controller</figcaption>
+</figure>
 
 
 ---
