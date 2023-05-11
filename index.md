@@ -33,7 +33,7 @@ I contributed in this project collaborating in the writing of the code in C for 
 </figure>
 
 <figure>
- <p float="left">
+ <p float="center">
    <img src="images/modelo_gas_1.png" width="300" />
    <img src="images/modelo_gas_1.png" width="300" />
    <img src="images/modelo_gas_1.png" width="300" />
