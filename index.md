@@ -60,6 +60,27 @@ This project consisted of the design and development of a system to measure the 
 
 In this project we worked with a development board with an STM32 microcontroller, in which we implemented a real-time closed-loop PID control system (RTOS), using FreeRTOS, and an ESP32 to send data to a remote server using the MQTT protocol. The CAN protocol was implemented between the STM32 and the ESP32 to send and receive tire pressure data. As an extra, a Fourier analysis was implemented to compensate the noise caused by the air pump in the pressure measurement.
 
+<figure> 
+  <img src="images/P1-control-diagram.png?raw=true"/>
+  <figcaption>Closed-loop control system diagram</figcaption>
+</figure>
+
+<figure>
+  <img src="images/P1-schematic.png?raw=true"/>
+  <figcaption>Electric diagram</figcaption>
+</figure>
+
+<figure>
+  <img src="images/P1-freq.png?raw=true"/>
+  <figcaption>frequency analysis results</figcaption>
+</figure>
+
+<figure>
+  <img src="images/P1-GUI.png?raw=true"/>
+  <figcaption>Remote server dashboard</figcaption>
+</figure>
+
+
 ---
 
 ### Closed-loop control system for a DC motor using ROS
