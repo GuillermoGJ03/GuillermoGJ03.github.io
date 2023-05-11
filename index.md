@@ -26,52 +26,6 @@ This project was taken up again later on, making a game similar to Duck Hunter f
 
 ---
 
-### Microcontroller-based gas detection safety system
-
-Project supervised by Intel.
-
-For this team project a digital system for gas detection and measurement of environmental variables for alarm activation and a ventilation system was designed and prototyped, in addition to a dashboard showing the levels of the measured variables.
-
-To develop this project, the ATMega32 microcontroller was used to read and process the sensor measurements and to desaplay them in a LCD. My teammates and I used a MQ3-alchohol sensor, a MQ135-CO_2 sensor and a LM35-temperature sensor. When one of these sensor detected a dangerous level of gas or temperature, the microcontroller activated a fan to ventilate the area, through a H-Bridge, and an alarm. Also, via bluetooth, the microcontroller sent the measurments to a computer to be displayed the gases levels in a dashboard in real time.
-
-I contributed in this project collaborating in the writing of the code in C for the ATMega32 microcontroller to use and coordinate several of its components and functions such as: Timers, GPIOs, Serial communication (UART), PWM and interrupts. In addition, I was in charge of the development of the data processing algorithm and the choice of components for the circuit (Bill of Materials).
-
-<figure>
-  <img src="images/diagrama_gases.png?raw=true"/>
-  <figcaption>gas detector system block diagram</figcaption>
-</figure> 
-
-<figure>
-  <img src="images/algoritmo_gases.png?raw=true" width="800"/>
-  <figcaption>Flowchart</figcaption>
-</figure>
- 
-<figure>
-  <img src="images/esquematico_gas.png?raw=true"/>
- <figcaption> Electric diagram </figcaption>
-</figure>
-
-<figure>
-  <img src="images/resultado_circuito_gas.png?raw=true"/>
- <figcaption>Resulting gas detector circuit</figcaption>
-</figure>
-
-<figure>
-  <img src="images/modelo_gas.png?raw=true"/>
- <figcaption>Final prototype of gas detector system</figcaption>
-</figure>
-
-<figure>
- <p float="center">
-   <img src="images/modelo_gas_1.png" width="300" />
-   <img src="images/modelo_gas_2.png" width="300" />
-   <img src="images/modelo_gas_3.png" width="300" />
- </p>
- <figcaption>Final prototype of gas detector system</figcaption>
-</figure>
-
----
-
 ### Smart framework for air pressure control in agricultural equipment
 
 Project done in collaboration and supervised by John Deere
@@ -100,6 +54,50 @@ In this project I collaborated designing the control system with MATLAB and prog
 <figure>
   <img src="images/P1-GUI.png?raw=true"/>
   <figcaption>Remote server dashboard</figcaption>
+</figure>
+
+---
+
+### Microcontroller-based gas detection safety system
+
+Project supervised by Intel.
+
+For this team project a digital system for gas detection and measurement of environmental variables for alarm activation and a ventilation system was designed and prototyped, in addition to a dashboard showing the levels of the measured variables.
+
+To develop this project, the ATMega32 microcontroller was used to read and process the sensor measurements and to desaplay them in a LCD. My teammates and I used a MQ3-alchohol sensor, a MQ135-CO_2 sensor and a LM35-temperature sensor. When one of these sensor detected a dangerous level of gas or temperature, the microcontroller activated a fan to ventilate the area, through a H-Bridge, and an alarm. Also, via bluetooth, the microcontroller sent the measurments to a computer to be displayed the gases levels in a dashboard in real time.
+
+I contributed in this project collaborating in the writing of the code in C for the ATMega32 microcontroller to use and coordinate several of its components and functions such as: Timers, GPIOs, Serial communication (UART), PWM and interrupts. In addition, I was in charge of the development of the data processing algorithm and the choice of components for the circuit (Bill of Materials).
+
+<figure>
+  <img src="images/diagrama_gases.png?raw=true"/>
+  <figcaption>Gas detector system block diagram</figcaption>
+</figure> 
+
+<figure>
+  <img src="images/algoritmo_gases.png?raw=true" width="800"/>
+  <figcaption>Gas detector system flowchart </figcaption>
+</figure>
+ 
+<figure>
+  <img src="images/esquematico_gas.png?raw=true"/>
+ <figcaption>Electric diagram </figcaption>
+</figure>
+
+<figure>
+  <img src="images/resultado_circuito_gas.png?raw=true"/>
+ <figcaption>Resulting gas detector circuit</figcaption>
+</figure>
+
+<figure>
+  <img src="images/modelo_gas.png?raw=true"/>
+ <figcaption>Final prototype of gas detector system</figcaption>
+</figure>
+
+<figure>
+   <img src="images/modelo_gas_1.png" width="300" />
+   <img src="images/modelo_gas_2.png" width="300" />
+   <img src="images/modelo_gas_3.png" width="300" />
+ <figcaption>Final prototype of gas detector system</figcaption>
 </figure>
 
 ---
