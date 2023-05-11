@@ -76,7 +76,7 @@ In this project I collaborated designing the control system with MATLAB and prog
 
 <figure>
   <img src="images/P1-freq.png?raw=true"/>
-  <figcaption>frequency analysis results</figcaption>
+  <figcaption>Frequency analysis results</figcaption>
 </figure>
 
 <figure>
