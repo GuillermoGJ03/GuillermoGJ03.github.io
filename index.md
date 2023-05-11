@@ -28,7 +28,7 @@ This project was taken up again later on, making a game similar to Duck Hunter f
 
 ### Smart framework for air pressure control in agricultural equipment
 
-Project done in collaboration and supervised by John Deere
+Project done in collaboration and supervised by John Deere.
 
 This project consisted in the design and development of a system to measure the pressure of a tire and adjust it to the desired value by the user through a remote graphical interface (dashboard). The objective of this was to be able adapt the tires of John Deere vehicles to the conditions of the terrain and thus maximize their lifespan.
 
@@ -55,6 +55,49 @@ In this project I collaborated designing the control system with MATLAB and prog
   <img src="images/P1-GUI.png?raw=true"/>
   <figcaption>Remote server dashboard</figcaption>
 </figure>
+
+---
+
+### Closed-loop control system for a DC motor using ROS
+
+Project made in collaboration with Manchester Robotics.
+
+This project consisted of designing and implementing a closed-loop control system for speed and position of a DC motor for a mobile robot wheel in conjunction with ROS.
+
+The controller was implemented in a Simulink model, which received the reference through a slider and the motor velocity and position feedback through subscription nodes. Then, the controller sent a PWM control through the pubisher node to the motor. The DC motor was connected to a development board with an ATMega256 microcontroller to calculate the position and velocity of the motor. It received the control PWM signal through a subscriber node and sent the position and velocity values through a publisher node. For the velocity control, a PI controller was implemented, while for the position control, a PID controller was implemented.
+
+In this project I contributed by writing the C program to make the motor velocity and position measurements and making the electric circuit between the DC motor and the development board. In addition, I was in charge of tunning both controller gains using methods such as Ziegler-Nichols and Root Locus to obtain the best to obtain a control that came as close as possible to the reference.
+
+<figure>
+  <img src="images/controlador_velocidad.png" />
+  <figcaption>MATLAB velocity controller</figcaption>
+</figure>
+
+<figure>
+  <img src="images/resultado_velocidad.png" />
+  <figcaption>Velocity result with PI controller</figcaption>
+</figure>
+
+
+<figure>
+  <img src="images/controlador_posicion.png" />
+  <figcaption>MATLAB position controller</figcaption>
+</figure>
+
+<figure>
+  <img src="images/resultado_posicion.png" />
+  <figcaption>Position result with PID controller</figcaption>
+</figure>
+
+---
+
+### Design of a dedicated controller for an electric vehicle
+
+Project made for Shell Eco-Marathon competition.
+
+Shell Eco-Marathon competition is an event organized by Shell in which teams from different universities around the world design and build a vehicle that can travel the longest distance using the least amount of energy. I was part of Borregos CCM, my univeristy's team, for this competition in the season 2022-2023. Our team participated in the Prototype Battery Electric category. I was part of different areas such as physical design and manufacturing of the vehicle, but where I was most involved was in the electronic and telemetry area.
+
+For the vehicle of the 2022-2023 season, three PCBs were designed, two for the dedicated control and one for the telemetry. In both circuits, we used an ESP32-S3 as the main microcontroller. During the design and implementation of the electronic systems, I helped in the design of the dedicated control based on a Field Oriented Control for a three-phase motor. For the 2022-2023 season, we used the Texas Instrument DRV8350RS as the motor driver. The control was implemented in a ESP32-S3, using the Espressif official IoT Development Framework (ESP-IDF) and PlatformIO IDE. Specifically, I was in charge of the communication between the ESP32-S3 and the DRV8350RS driver, using SPI interface. I developed the necessary functions to configure and check the driver registers in order to control the motor. Also, I was in charge of the communication between the two ESP32-S3 and the steering wheel, which had the telemetry system. For this, I used the CAN protocol, in which I developed the necessary functions to send and receive data. In addition, I collaborated in the physical part of electronics, soldering the necessary components to the PCBs and assembling the vehicle's electrical circuit. 
 
 ---
 
@@ -98,39 +141,6 @@ I contributed in this project collaborating in the writing of the code in C for 
    <img src="images/modelo_gas_2.png" width="300" />
    <img src="images/modelo_gas_3.png" width="300" />
  <figcaption>Final prototype of gas detector system</figcaption>
-</figure>
-
----
-
-### Closed-loop control system for a DC motor using ROS
-
-Project made in collaboration with Manchester Robotics.
-
-This project consisted of designing and implementing a closed-loop control system for speed and position of a DC motor for a mobile robot wheel in conjunction with ROS.
-
-The controller was implemented in a Simulink model, which received the reference through a slider and the motor velocity and position feedback through subscription nodes. Then, the controller sent a PWM control through the pubisher node to the motor. The DC motor was connected to a development board with an ATMega256 microcontroller to calculate the position and velocity of the motor. It received the control PWM signal through a subscriber node and sent the position and velocity values through a publisher node. For the velocity control, a PI controller was implemented, while for the position control, a PID controller was implemented.
-
-In this project I contributed by writing the C program to make the motor velocity and position measurements and making the electric circuit between the DC motor and the development board. In addition, I was in charge of tunning both controller gains using methods such as Ziegler-Nichols and Root Locus to obtain the best to obtain a control that came as close as possible to the reference.
-
-<figure>
-  <img src="images/controlador_velocidad.png" />
-  <figcaption>MATLAB velocity controller</figcaption>
-</figure>
-
-<figure>
-  <img src="images/resultado_velocidad.png" />
-  <figcaption>Velocity result with PI controller</figcaption>
-</figure>
-
-
-<figure>
-  <img src="images/controlador_posicion.png" />
-  <figcaption>MATLAB position controller</figcaption>
-</figure>
-
-<figure>
-  <img src="images/resultado_posicion.png" />
-  <figcaption>Position result with PID controller</figcaption>
 </figure>
 
 ---
