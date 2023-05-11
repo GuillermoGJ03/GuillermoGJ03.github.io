@@ -27,6 +27,12 @@ I contributed in this project collaborating in the writing of the code in C for 
  <figcaption> Electric diagram </figcaption>
 </figure>
 
+<figure>
+  <img src="images/resultado_circuito_gas?raw=true"/>
+ <figcaption> Resulting System Circuit </figcaption>
+</figure>
+
+
 ---
 
 ### Smart framework for air pressure control in agricultural equipment
