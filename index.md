@@ -18,9 +18,15 @@ For this team project, made in collaboration with Intel, a digital system for ga
 
 I contributed in this project collaborating in the writing of the code in C for the ATMega16 microcontroller to use and coordinate several of its components and functions such as: Timers, GPIOs, Serial communication (UART), PWM and interrupts. In addition, I was in charge of the selection of the system components (bill of material).
 
-<table>
-<td><figure><img src="images/diagrama_gases_1.png?raw=true" width="600"/> <figcaption>gas detector system block diagram</figcaption> </figure> </td> <td><figure><img src="images/algoritmo_gases_1.png?raw=true" width="800"/> <figcaption>Flowchart </figcaption></figure></td>
-</table>
+<figure>
+  <img src="images/diagrama_gases.png?raw=true"/>
+  <figcaption>gas detector system block diagram</figcaption>
+</figure> 
+
+<figure>
+  <img src="images/algoritmo_gases.png?raw=true" width="800"/>
+  <figcaption>Flowchart</figcaption>
+</figure>
  
 <figure>
   <img src="images/esquematico_gas.png?raw=true"/>
@@ -30,6 +36,11 @@ I contributed in this project collaborating in the writing of the code in C for 
 <figure>
   <img src="images/resultado_circuito_gas.png?raw=true"/>
  <figcaption>Resulting gas detector circuit</figcaption>
+</figure>
+
+<figure>
+  <img src="images/modelo_gas.png?raw=true"/>
+ <figcaption>Final prototype of gas detector system</figcaption>
 </figure>
 
 <figure>
