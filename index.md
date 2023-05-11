@@ -60,7 +60,7 @@ This project consisted in the design and development of a system to measure the 
 
 To achieve this team project, my teammates and I used a development board with an STM32 microcontroller, in which we implemented a closed-loop PID control system, and an ESP32 to send data to a remote server using the MQTT protocol. Also, we implemented the CAN protocol between the STM32 and the ESP32 to send and receive tire pressure data. As an extra, a Fourier analysis was implemented to compensate the noise caused by the air pump in the pressure measurement. In addition, to make the project more reliable and professional, we implemented the control system in real-time using FreeRTOS, and use multicore programming to separate the tasks of the system. One core, an ARM Cortex-M4, was in charge of the control system and the preassure measurement, while in the other core, an ARM Cortex-M7, the communication with the remote server and the frequency analysis were carried out.
 
-In this project I collaborated designing the control system with MATLAB and programming it in C for the STM32 microcontroller, and assisting in multicore implementation. In addition, I was in charge in writing the C code for frequency analysis, specifically implementing the Fast Fourier Transform.
+In this project I collaborated designing the control system with MATLAB and programming it in C for the STM32 microcontroller. Also, I assisted in the multicore and RTOS implementation. In addition, I was in charge in writing the C program for frequency analysis, specifically implementing the Fast Fourier Transform.
 
 
 
