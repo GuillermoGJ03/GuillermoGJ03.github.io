@@ -29,9 +29,17 @@ I contributed in this project collaborating in the writing of the code in C for 
 
 <figure>
   <img src="images/resultado_circuito_gas.png?raw=true"/>
- <figcaption> Resulting System Circuit </figcaption>
+ <figcaption>Resulting gas detector circuit</figcaption>
 </figure>
 
+<figure>
+ <p float="left">
+   <img src="images/modelo_gas_1.png" width="500" />
+   <img src="images/modelo_gas_1.png" width="500" />
+   <img src="images/modelo_gas_1.png" width="500" />
+ </p>
+ <figcaption>Final prototype of gas detector system</figcaption>
+</figure>
 
 ---
 
