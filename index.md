@@ -28,7 +28,7 @@ I contributed in this project collaborating in the writing of the code in C for 
 </figure>
 
 <figure>
-  <img src="images/resultado_circuito_gas?raw=true"/>
+  <img src="images/resultado_circuito_gas.png?raw=true"/>
  <figcaption> Resulting System Circuit </figcaption>
 </figure>
 
