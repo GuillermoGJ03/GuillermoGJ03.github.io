@@ -34,9 +34,9 @@ I contributed in this project collaborating in the writing of the code in C for 
 
 <figure>
  <p float="left">
-   <img src="images/modelo_gas_1.png" width="400" />
-   <img src="images/modelo_gas_1.png" width="400" />
-   <img src="images/modelo_gas_1.png" width="400" />
+   <img src="images/modelo_gas_1.png" width="300" />
+   <img src="images/modelo_gas_1.png" width="300" />
+   <img src="images/modelo_gas_1.png" width="300" />
  </p>
  <figcaption>Final prototype of gas detector system</figcaption>
 </figure>
